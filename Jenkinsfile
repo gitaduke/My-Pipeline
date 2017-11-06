@@ -1,21 +1,11 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent any
+    agent { docker 'maven:3.3.3' }
     stages {
-        stage('Build') {
+        stage('build') {
             steps {
-                sh 'echo "Hello World"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+                sh 'mvn --version'
             }
         }
     }
 }
-
-plasa1cb0002
-
-plasa1cb0002 and plasa1cb0003
-
-aig-essentialservices-prod-cloudtrail
