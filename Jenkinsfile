@@ -13,3 +13,9 @@ pipeline {
         }
     }
 }
+
+plasa1cb0002
+
+plasa1cb0002 and plasa1cb0003
+
+aig-essentialservices-prod-cloudtrail
